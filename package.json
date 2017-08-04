@@ -1,0 +1,31 @@
+{
+  "name": "folderdown-cli",
+  "version": "1.0.0",
+  "description": "Generates a folder with markdown-to-HTML converted files.",
+  "main": "index.js",
+  "bin": {
+    "folderdown": "./folderdown-cli.js",
+    "folderdown-cli": "./folderdown-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EsmeraldaQuintana/folderdown"
+  },
+  "keywords": [
+    "markdown",
+    "HTML"
+  ],
+  "author": "EsmeraldaQuintana Tempurturtul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EsmeraldaQuintana/folderdown/issues"
+  },
+  "homepage": "https://github.com/EsmeraldaQuintana/folderdown#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.7",
+    "showdown": "^1.7.1"
+  }
+}
